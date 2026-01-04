@@ -1,8 +1,7 @@
-let resultado = soma(5, 5)
+let userName = getFirstName("Pedro Henrique Neves Pereira Bertolani")
+console.log("Seja bem-vindo " + userName)
 
-console.log("O resultado dessa função é " + resultado)
-
-function soma(numA, numB){
-    let somatorio = numA + numB
-    return(somatorio)
-};
+function getFirstName(name){
+    let firstName = name.split(" ")[0]
+    return firstName
+}
